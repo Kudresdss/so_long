@@ -6,7 +6,7 @@
 /*   By: ymirna <ymirna@student.21-school.ru>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/02 08:22:56 by ymirna            #+#    #+#             */
-/*   Updated: 2022/04/01 21:24:33 by ymirna           ###   ########.fr       */
+/*   Updated: 2022/05/31 21:39:43 by ymirna           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,9 +25,9 @@ typedef struct s_gnl
 	size_t	i;
 }	t_gnl;
 
-char	*get_next_line(int	fd);
+char	*get_next_line(int fd);
 size_t	ft_strlen_gnl(const char	*s);
-char	*ft_sub(char *s, unsigned int start, size_t	len, int	x);
-char	*ft_join(char *s1, char *s2, int	x);
+char	*ft_sub(char *s, unsigned int start, size_t	len, int x);
+char	*ft_join(char *s1, char *s2, int x);
 
 #endif

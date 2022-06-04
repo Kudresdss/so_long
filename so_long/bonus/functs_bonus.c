@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   functs.c                                           :+:      :+:    :+:   */
+/*   functs_bonus.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ymirna <ymirna@student.21-school.ru>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/01 18:40:59 by ymirna            #+#    #+#             */
-/*   Updated: 2022/05/31 21:32:57 by ymirna           ###   ########.fr       */
+/*   Updated: 2022/06/02 17:06:15 by ymirna           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../headers/so_long.h"
+#include "../headers/so_long_bonus.h"
 
 int	ft_strlen(const char	*s)
 {
@@ -109,5 +109,6 @@ int	map_check_1(t_valid	*val, char	**map)
 		else
 			return (3);
 	}
+	add_evil(val, map);
 	return (map_check_2(val, map));
 }
