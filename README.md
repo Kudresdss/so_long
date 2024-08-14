@@ -1,5 +1,5 @@
 # so_long
-so_long project for 42 cursus
+so_long project for 42cursus
 
 Currently works only on macOS and linux systems.
 
