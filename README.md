@@ -5,6 +5,10 @@ Currently works only on macOS and linux systems.
 
 It is a simple 2D Top-Down maze game written from scratch in C and using the MiniLibx graphical library. The game's objective is to collect all the collectable chests before reaching the exit, while avoiding obstacles such as walls and enemies.
 
+https://github.com/user-attachments/assets/6f9eef94-c8b6-4c0b-b007-6b2b900f13fa
+
+(Sorry for the lack of screen recording, this is the only presentable video that I could find. I'll update project to compile in Windows and then will re-record the gameplay)
+
 The game recieves a 2D map file with .ber extension. The map is written with these ASCII symbols:
 
 |  Symbol  | Tile |
